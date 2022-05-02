@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODPHAC</title>
+    <link rel="stylesheet" href="../css/resume.css">
+
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="../css/all.css">
+
+    <!------------ Owl-Carousel ------------>
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+
+    <!--------------------- AOS Library---------------->
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <!--Custom Style-->
+    <link rel="stylesheet" href="../css/Style.css">
+
+</head>
+<body>
+    
+    <!----------------------Navigation----------------->
+
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gary">Bloger</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="../Index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Researches</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../pdf/Curriculum Vitae.pdf">Curriculum Vitae</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#Contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="social text-gary">
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2632292881&site=qq&menu=yes"><i class="fab fa-qq"></i></a>
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="self-in" data-aos="zoom-in" data-aos-delay="300">
+        <div class="resume" >
+        <h1>An outlier detection strategy for spatial free path-finding based on hierarchical ant colonies</h1>
+        <hr>
+        <h2>Abstract</h2>
+        <p><nbsp><nbsp>Outlier Detection (OD) is of great significance and widely used in various industries. It can not only find outlier objects to ensure industry safety, but also mine new knowledge. Considering the biological pattern of ant colony foraging behavior and inspired by swarm intelligence, this paper proposed an outlier detection strategy of spatial free path-finding for hierarchical ant colonies: OD Based on Path-finding of Hierarchical Ant Colonies (ODPHAC). Firstly, a new relationship measurement model between points is proposed to provide effective support for anomaly measurement. Then, two kinds of ant colonies with high and low levels are established, and different generation numbers are assigned to them. At the same time, different search ranges and path finding strategies are proposed for different levels of ant colonies to fully explore the data space and effectively save computing resources. Next, the representation method of data outlier-ness by bio pheromone is proposed, and an effective pheromone update operator is established to provide the necessary basis for ant colonies to find paths. Finally, the termination conditions of path-finding are put forward, and abnormal data results are produced. Under the support of the above-mentioned theory, the four models of Ant Generation, Range and Path-finding, Pheromone Update and Termination of Path Extension are established systematically. Through the sequential iteration of four models, the algorithm can explore the relevance of data space and assign anomaly degree to data objects. Experimental results show that ODPHAC is superior to 10 kinds of outlier detection algorithms in synthetic and real high-dimensional data sets. <a href="https://github.com/firesaku/ODPHAC">GitHub</a></p>
+        <hr>
+        <h2>Introduction</h2>
+        <p><b>Background: </b>
+            Outlier Detection (OD) has important application value and significance in daily production and life. In the research of data mining, the detection of outliers can make sensitivity analysis on the degree of data anomaly, and its application covers a wide range of fields, such as congestion investigation of road traffic, adverse reactions of drug taking, fraud identification of financial transactions, abnormal intrusion of network communication, etc. Similarly, outlier detection can also carry out knowledge mining and learning of abnormal phenomena, and take outliers as special objects for research, to find new knowledge.
+        </p>
+        <hr>
+        
+        <img src="../assets/ODPHAC/fig5.png" alt="" width="50%" ><br>The algorithm top-level design process
+        <h2>Experiments</h2>
+        <img src="../assets/ODPHAC/fig12.png" alt="" width="50%" ><br>Path demonstration of ant colonies on synthetic datasets<br>
+        <img src="../assets/ODPHAC/fig13.png" alt="" width="50%" ><br>The number of times each point was selected in the three synthetic datasets<br>
+        <img src="../assets/ODPHAC/fig14.png" alt="" width="50%" ><br>Accuracy comparison results of 11 algorithms on three different datasets<br>
+        <img src="../assets/ODPHAC/fig15.png" alt="" width="50%" ><br>Comparison results of 10 kinds of outlier detection algorithms and ODPHAC under F1, and Mean Absolute Error<br>
+        
+    <hr>
+    <h2>Conclution</h2>
+    <p>Outlier detection can discover and mine outliers for various industries, to provide technical support for the excavation of new knowledge while ensuring the safety of the industry. In this paper, a bionic anomaly detection algorithm ODPHAC is proposed, which simulates ant colony hierarchy and is applied to the path finding model, so as to find outliers in the path-finding stage. The algorithm carries out systematic modeling around the four objectives of ant generation, path-finding, finding termination and pheromone update, and finally forms ODPHAC architecture. It has good detection accuracy in synthetic data set and real data set. The next work will still take bionics as the perspective, and consider the problem of redundancies while further improving the accuracy of the algorithm. Later research will continue to expand the research objectives, aiming to apply bionics to other researches in the unsupervised field.
+        </p>
+    </div>
+    </div>
+    <!------------------Footer----------------->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About the blog</h2>
+                <p>This is a personal blog for academic technology sharing</p>
+            </div>
+            <div class="newletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Research Interests</h2>
+                <p>· Unsupervised Learning</br>· Semantic Segmentation</br>· Causal Inference</p>
+            </div>
+            <div class="pixiv" data-aos="fade-left" data-aos-delay="200">
+                <h2>Figures</h2>
+                <div class="flex-row">
+                    <img src="../assets/immune.jpg" alt="pix1">
+                    <img src="../assets/reverse-sigmoid.png" alt="pix2">
+                    <img src="../assets/prognosis.jpg" alt="pix3">
+                </div>
+                <div class="flex-row">
+                    <img src="../assets/PCA.jpg" alt="pix4">
+                    <img src="../assets/t-SNE.jpg" alt="pix5">
+                    <img src="../assets/riskMap.jpg" alt="pix6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2 id="Contact">Contact me</h2>
+                <p>Academic & Technology Sharing Blog</p>
+                <p>e-mail: zengshijie@stu.cdu.edu.cn</p>
+                <div>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2632292881&site=qq&menu=yes"><i class="fab fa-qq"></i></a>
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+
+
+
+
+    
+    <!--X----------------Footer----------------->
+
+    <!--Jquery Library file-->
+    <script src="../js/Jquery3.5.1.min.js"></script>
+
+
+    <!------------ Owl-Carousel ------------>
+    <script src="../js/owl.carousel.min.js"></script>
+
+
+
+
+    <!--------------------- AOS js Library---------------->
+    <script src="../js/aos.js"></script>
+
+
+
+    <!--Custom Javascript file-->
+    <script src="../js/main.js"></script>
+</body>
+</html>

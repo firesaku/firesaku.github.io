@@ -6,16 +6,25 @@
 }
 
 .resume{
+    width: 100%;
     padding: 1%;
-    position:float;
+    position:flex;
     border:1px solid;
     border-radius: 2rem;
-    margin:5%;
+    /* margin:5%; */
     margin-bottom: 1%;
     background:linear-gradient(120deg, #fdfbfb4f 0%, #ebedee3b 100%);
     color: black;
+    /* align-items: center; */
+    /* justify-content: center; 图片居中 */
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
 }
 
+.resume img{
+    width: 50%;
+}
 .resume .para{
     font-size:24px;
     color:var(--text--gray);
@@ -53,6 +62,7 @@ h2{
 
 p{
     font-family: "仿宋";
+    text-align: left;
 }
 
 .music{
