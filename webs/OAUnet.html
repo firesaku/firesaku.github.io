@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODPHAC</title>
+    <title>OA-Unet</title>
     <link rel="stylesheet" href="../css/resume.css">
 
     <!-- Font Awesome Icons-->
@@ -24,7 +24,6 @@
 <body>
     
     <!----------------------Navigation----------------->
-
 
     <nav class="nav">
         <div class="nav-menu flex-row">
@@ -65,42 +64,60 @@
             </div>
         </div>
     </nav>
+
+
+
     <div class="self-in" data-aos="zoom-in" data-aos-delay="300">
-        <div class="resume" >
-        <h1>An outlier detection strategy for spatial free path-finding based on hierarchical ant colonies</h1>
-        <hr>
-        <h2>Abstract</h2>
-        <p><nbsp><nbsp>Outlier Detection (OD) is of great significance and widely used in various industries. It can not only find outlier objects to ensure industry safety, but also mine new knowledge. Considering the biological pattern of ant colony foraging behavior and inspired by swarm intelligence, this paper proposed an outlier detection strategy of spatial free path-finding for hierarchical ant colonies: OD Based on Path-finding of Hierarchical Ant Colonies (ODPHAC). Firstly, a new relationship measurement model between points is proposed to provide effective support for anomaly measurement. Then, two kinds of ant colonies with high and low levels are established, and different generation numbers are assigned to them. At the same time, different search ranges and path finding strategies are proposed for different levels of ant colonies to fully explore the data space and effectively save computing resources. Next, the representation method of data outlier-ness by bio pheromone is proposed, and an effective pheromone update operator is established to provide the necessary basis for ant colonies to find paths. Finally, the termination conditions of path-finding are put forward, and abnormal data results are produced. Under the support of the above-mentioned theory, the four models of Ant Generation, Range and Path-finding, Pheromone Update and Termination of Path Extension are established systematically. Through the sequential iteration of four models, the algorithm can explore the relevance of data space and assign anomaly degree to data objects. Experimental results show that ODPHAC is superior to 10 kinds of outlier detection algorithms in synthetic and real high-dimensional data sets. 
-        This paper is currently under review, but the relevant code can be found at <a href="https://github.com/firesaku/ODPHAC">GitHub</a></p>
-        <hr>
-       This paper is currently Under Review.
+    <div class="resume" >
+    <h1>OAU-net: Outlined Attention U-net for Biomedical Image Segmentation</h1>
+    <hr>
+    <h2>Abstract</h2>
+    <p><nbsp><nbsp>In this paper, we propose an Outlined Attention U-network (OAU-net) with bypass branching strategy to solve biomedical image segmentation tasks, which is capable of sensing shallow and deep features. Unlike previous studies, we use residual convolution and res2convolution as encoders. In particular, the outline filter and attention module are embedded in the skip connection part, respectively. Shallow features will enhance the edge information after being processed by the outline filter. Meanwhile, in the depths of the network, to better realize feature fusion, our attention module will simultaneously emphasize the independence between feature map channels (channel attention module) and each position information (spatial attention module), that is, the hybrid domain attention module. Finally, we conducted ablation experiments and comparative experiments according to three public data sets (pulmonary CT lesions, Kaggle 2018 data science bowl, skin lesions), and analyzed them with classical evaluation indexes. Experimental results show that our proposed method improves segmentation accuracy effectively. Our code is public at  <a href="https://github.com/firesaku/DCACP">GitHub</a></p>
+    This Paper is accepted by <b>Biomedical Signal Processing and Control (IF: 5.076).</b>> To learn more please click <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809422005158">here</a>.
+</div>
+</div>
+
     <!------------------Footer----------------->
 
     <footer class="footer">
         <div class="container">
             <div class="about-us" data-aos="fade-right" data-aos-delay="200">
                 <h2>About the blog</h2>
-                <p>This is a personal blog for Shijie Zeng's academic technology sharing</p>
+                <p>This is a personal blog for academic technology sharing</p>
             </div>
             <div class="newletter" data-aos="fade-right" data-aos-delay="200">
                 <h2>Research Interests</h2>
-                <p>· Machine Learning</br>· Deep Learning</br>· Bioinfomatics</p>
+                <p>· Unsupervised Learning</br>· Semantic Segmentation</br>· Causal Inference</p>
             </div>
             <div class="pixiv" data-aos="fade-left" data-aos-delay="200">
-                <h2>Pageviews</h2>
-                <a href='https://clustrmaps.com/site/1bqvl'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=tbC4t593tPCHUpQwsOU8UzxJ8zT9Lma0SMvA4B8y7v0&co=2d78ad&ct=ffffff'/></a>    
+                <h2>Figures</h2>
+                <div class="flex-row">
+                    <img src="../assets/immune.jpg" alt="pix1">
+                    <img src="../assets/reverse-sigmoid.png" alt="pix2">
+                    <img src="../assets/prognosis.jpg" alt="pix3">
+                </div>
+                <div class="flex-row">
+                    <img src="../assets/PCA.jpg" alt="pix4">
+                    <img src="../assets/t-SNE.jpg" alt="pix5">
+                    <img src="../assets/riskMap.jpg" alt="pix6">
+                </div>
             </div>
             <div class="follow" data-aos="fade-left" data-aos-delay="200">
                 <h2 id="Contact">Contact me</h2>
+                <p>Academic & Technology Sharing Blog</p>
                 <p>e-mail: zengshijie@stu.cdu.edu.cn</p>
+                <div>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2632292881&site=qq&menu=yes"><i class="fab fa-qq"></i></a>
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
             </div>
         </div>
         <div class="move-up">
             <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
         </div>
     </footer>
-
-
 
 
 
